@@ -40,6 +40,7 @@ source부분만 올리니 프로젝트 아래 내용대로 새로 생성하여 �
 client main.html
 
 //<template name="hello"> 이 {{> hello}}에 들어간다 템플릿 내에 {{counter}} 는 js에서 선언한 변수
+/*
 <head>
   <title>meteorApp</title>
 </head>
@@ -65,7 +66,7 @@ client main.html
     <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
   </ul>
 </template>
-
+*/
 
 client main.js
 
