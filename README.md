@@ -40,33 +40,32 @@ source부분만 올리니 프로젝트 아래 내용대로 새로 생성하여 �
 client main.html
 
 //<template name="hello"> 이 {{> hello}}에 들어간다 템플릿 내에 {{counter}} 는 js에서 선언한 변수
-/*
-<head>
-  <title>meteorApp</title>
-</head>
 
-<body>
-  <h1>Welcome to Meteor!</h1>
+//<head>
+//  <title>meteorApp</title>
+//</head>
 
-  {{> hello}}
-  {{> info}}
-</body>
+//<body>
+//  <h1>Welcome to Meteor!</h1>
+//  {{> hello}}
+//  {{> info}}
+//</body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-</template>
+//<template name="hello">
+//  <button>Click Me</button>
+//  <p>You've pressed the button {{counter}} times.</p>
+//</template>
 
-<template name="info">
-  <h2>Learn Meteor!</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
-  </ul>
-</template>
-*/
+//<template name="info">
+//  <h2>Learn Meteor!</h2>
+//  <ul>
+//    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
+//    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
+//    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
+//    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
+//  </ul>
+//</template>
+
 
 client main.js
 
@@ -109,27 +108,27 @@ Meteor.startup(() => {
 // 게시판 실습
 client main.html
 <!-- 게시판 소스 -->
-<template name="border">
-  <table>
-    {{#each list}} 
-      <tr>
-        <td>{{no}}</td>
-        <td>{{name}}</td>
-        <td>{{email}}</td>
-        <td><button name="remove">삭제</button></td>
-      </tr>
-    {{/each}} 
-  </table>
-</template>
+//<template name="border">
+//  <table>
+//    {{#each list}} 
+//      <tr>
+//        <td>{{no}}</td>
+//        <td>{{name}}</td>
+//        <td>{{email}}</td>
+//        <td><button name="remove">삭제</button></td>
+//      </tr>
+//    {{/each}} 
+//  </table>
+//</template>
 
 
 <!-- 추가 소스 -->
-<template name="borderInsert">
-  번호: <input type="text" name="no">
-  이름: <input type="text" name="name">
-  이메일: <input type="text" name="email">
-  <button name="insert">추가</button>
-</template>
+//<template name="borderInsert">
+//  번호: <input type="text" name="no">
+//  이름: <input type="text" name="name">
+//  이메일: <input type="text" name="email">
+//  <button name="insert">추가</button>
+//</template>
 
 
 client main.js
